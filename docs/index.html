@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Engpass-Radar</title>
+  <meta name="description" content="Bedarfs- und Kapazitaetsabgleich mit Lieferantenausfall-Szenarien. Lernprojekt mit fiktiven Daten.">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="kopf">
+    <div class="rahmen">
+      <h1>Engpass-Radar</h1>
+      <p class="untertitel">Bedarfs- und Kapazitaetsabgleich mit Lieferantenausfall-Szenarien</p>
+    </div>
+  </header>
+  <div class="banner" role="note">Lernprojekt mit fiktiven Daten</div>
+
+  <main class="rahmen">
+    <section class="steuerung" aria-label="Szenario und Zuteilungsregel">
+      <label class="feld">
+        <span class="feld-titel">Szenario</span>
+        <select id="szenario"></select>
+      </label>
+      <fieldset class="umschalter">
+        <legend class="feld-titel">Zuteilungsregel</legend>
+        <label><input type="radio" name="regel" value="PROPORTIONAL" checked><span>Proportional</span></label>
+        <label><input type="radio" name="regel" value="RELATIVER_DECKUNGSBEITRAG"><span>Nach relativem Deckungsbeitrag</span></label>
+      </fieldset>
+    </section>
+
+    <section id="kpis" class="kpis" aria-live="polite"></section>
+
+    <section class="block">
+      <h2>Wetterkarte: Teile je Kalenderwoche</h2>
+      <ul class="legende">
+        <li><span class="muster a-GRUEN">&#x2713;</span> gedeckt, Auslastung bis 85 %</li>
+        <li><span class="muster a-GELB">&#x25B2;</span> gedeckt, aber Auslastung ueber 85 %, Puffer genutzt oder Ausfall</li>
+        <li><span class="muster a-ROT">&#x2715;</span> Fehlmenge</li>
+        <li><span class="muster gestoert"></span> gestoerte Woche im Szenario</li>
+        <li><span class="muster ferien"></span> Werksferien</li>
+      </ul>
+      <div class="scroll" id="karte"></div>
+      <p class="hinweis">Zahl in der Zelle: Bedarf geteilt durch Kapazitaet. Details beim Ueberfahren mit der Maus.</p>
+    </section>
+
+    <section class="block">
+      <h2>Fahrzeuge: gebaut von geplant</h2>
+      <div class="scroll" id="fahrzeuge"></div>
+    </section>
+
+    <section class="block massnahme" id="massnahme"></section>
+
+    <section class="block">
+      <h2>Risiko-Ranking der Lieferanten</h2>
+      <p class="hinweis">Jeder Lieferant faellt drei Wochen komplett aus, jede moegliche Startwoche wird simuliert, der teuerste Zeitpunkt zaehlt. Erwarteter Schaden = Ausfallwahrscheinlichkeit x max. Schaden.</p>
+      <div class="scroll" id="risiko"></div>
+    </section>
+
+    <section class="block">
+      <h2>So rechnet das Modell</h2>
+      <ol class="schritte">
+        <li><strong>Produktionsprogramm</strong><span>Geplante Fahrzeuge je Variante und Kalenderwoche.</span></li>
+        <li><strong>Stuecklistenaufloesung</strong><span>Stueckzahl mal Menge pro Fahrzeug ergibt den Bruttobedarf je Teil, beim Steuergeraet auch den Chipbedarf beim Tier-2-Lieferanten.</span></li>
+        <li><strong>Abgleich mit Kapazitaet und Puffer</strong><span>Der Lieferant liefert bis zu seiner Kapazitaet, fehlende Mengen kommen aus dem Sicherheitsbestand. Was dann noch fehlt, ist Fehlmenge.</span></li>
+        <li><strong>Zuteilung und Schadenspotenzial</strong><span>Knappe Teile werden auf die Varianten verteilt. Nicht baubare Fahrzeuge mal Deckungsbeitrag ergeben das Schadenspotenzial.</span></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="rahmen fuss">
+    <span id="quelle"></span>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "engpass-radar-frontend",
+  "private": true,
+  "description": "Weboberflaeche des Engpass-Radars",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
