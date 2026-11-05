@@ -1,0 +1,1038 @@
+{
+    "kennzahlen": {
+        "engpassTeile": [
+            "Batteriemodul"
+        ],
+        "ersteEngpassWoche": "KW 03",
+        "gebaut": 9952,
+        "geplant": 10335,
+        "nichtGebaut": 383,
+        "schadenspotenzial": 2018000
+    },
+    "regel": "PROPORTIONAL",
+    "szenario": {
+        "dauer": 2,
+        "id": "zellwerk",
+        "lieferantId": "L2",
+        "restkapazitaetProzent": 30,
+        "startWoche": 7,
+        "titel": "Zellwerk Ost liefert ab KW 02 zwei Wochen nur 30 Prozent"
+    },
+    "teile": [
+        {
+            "lieferantId": "L1",
+            "lieferantName": "Elektronikwerk Nord",
+            "name": "Steuergeraet",
+            "teilId": "T01",
+            "tier": 1,
+            "wochen": [
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8421052631578947,
+                    "bedarf": 1600,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 1600,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8578947368421053,
+                    "bedarf": 1630,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 1630,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8736842105263158,
+                    "bedarf": 1660,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 1660,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8894736842105263,
+                    "bedarf": 1690,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 1690,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9052631578947369,
+                    "bedarf": 1720,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 1720,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.45263157894736844,
+                    "bedarf": 860,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 860,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.4605263157894737,
+                    "bedarf": 875,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 875,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9210526315789473,
+                    "bedarf": 1750,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 1750,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9368421052631579,
+                    "bedarf": 1780,
+                    "bestandEnde": 2144,
+                    "fehlmenge": 0,
+                    "geliefert": 1780,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9368421052631579,
+                    "bedarf": 1780,
+                    "bestandEnde": 2144,
+                    "fehlmenge": 0,
+                    "geliefert": 1780,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9368421052631579,
+                    "bedarf": 1780,
+                    "bestandEnde": 2144,
+                    "fehlmenge": 0,
+                    "geliefert": 1780,
+                    "kapazitaet": 1900
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9368421052631579,
+                    "bedarf": 1780,
+                    "bestandEnde": 2144,
+                    "fehlmenge": 0,
+                    "geliefert": 1780,
+                    "kapazitaet": 1900
+                }
+            ]
+        },
+        {
+            "lieferantId": "L2",
+            "lieferantName": "Zellwerk Ost",
+            "name": "Batteriemodul",
+            "teilId": "T02",
+            "tier": 1,
+            "wochen": [
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8444444444444444,
+                    "bedarf": 3800,
+                    "bestandEnde": 3000,
+                    "fehlmenge": 0,
+                    "geliefert": 3800,
+                    "kapazitaet": 4500
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8666666666666667,
+                    "bedarf": 3900,
+                    "bestandEnde": 3000,
+                    "fehlmenge": 0,
+                    "geliefert": 3900,
+                    "kapazitaet": 4500
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8888888888888888,
+                    "bedarf": 4000,
+                    "bestandEnde": 3000,
+                    "fehlmenge": 0,
+                    "geliefert": 4000,
+                    "kapazitaet": 4500
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9111111111111111,
+                    "bedarf": 4100,
+                    "bestandEnde": 3000,
+                    "fehlmenge": 0,
+                    "geliefert": 4100,
+                    "kapazitaet": 4500
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9333333333333333,
+                    "bedarf": 4200,
+                    "bestandEnde": 3000,
+                    "fehlmenge": 0,
+                    "geliefert": 4200,
+                    "kapazitaet": 4500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.4666666666666667,
+                    "bedarf": 2100,
+                    "bestandEnde": 3000,
+                    "fehlmenge": 0,
+                    "geliefert": 2100,
+                    "kapazitaet": 4500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.4777777777777778,
+                    "bedarf": 2150,
+                    "bestandEnde": 3000,
+                    "fehlmenge": 0,
+                    "geliefert": 2150,
+                    "kapazitaet": 4500
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 2950,
+                    "auslastung": 3.185185185185185,
+                    "bedarf": 4300,
+                    "bestandEnde": 50,
+                    "fehlmenge": 0,
+                    "geliefert": 1350,
+                    "kapazitaet": 1350
+                },
+                {
+                    "ampel": "ROT",
+                    "ausLager": 50,
+                    "auslastung": 3.259259259259259,
+                    "bedarf": 4400,
+                    "bestandEnde": 10,
+                    "fehlmenge": 3000,
+                    "geliefert": 1350,
+                    "kapazitaet": 1350
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9777777777777777,
+                    "bedarf": 4400,
+                    "bestandEnde": 110,
+                    "fehlmenge": 0,
+                    "geliefert": 4400,
+                    "kapazitaet": 4500
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9777777777777777,
+                    "bedarf": 4400,
+                    "bestandEnde": 210,
+                    "fehlmenge": 0,
+                    "geliefert": 4400,
+                    "kapazitaet": 4500
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.9777777777777777,
+                    "bedarf": 4400,
+                    "bestandEnde": 310,
+                    "fehlmenge": 0,
+                    "geliefert": 4400,
+                    "kapazitaet": 4500
+                }
+            ]
+        },
+        {
+            "lieferantId": "L3",
+            "lieferantName": "Kabeltechnik Sued",
+            "name": "Kabelbaum",
+            "teilId": "T03",
+            "tier": 1,
+            "wochen": [
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8181818181818182,
+                    "bedarf": 900,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 900,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8272727272727273,
+                    "bedarf": 910,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 910,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8363636363636363,
+                    "bedarf": 920,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 920,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8454545454545455,
+                    "bedarf": 930,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 930,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8545454545454545,
+                    "bedarf": 940,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 940,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.42727272727272725,
+                    "bedarf": 470,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 470,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.4318181818181818,
+                    "bedarf": 475,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 475,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8636363636363636,
+                    "bedarf": 950,
+                    "bestandEnde": 1200,
+                    "fehlmenge": 0,
+                    "geliefert": 950,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8727272727272727,
+                    "bedarf": 960,
+                    "bestandEnde": 1583,
+                    "fehlmenge": 0,
+                    "geliefert": 960,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8727272727272727,
+                    "bedarf": 960,
+                    "bestandEnde": 1583,
+                    "fehlmenge": 0,
+                    "geliefert": 960,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8727272727272727,
+                    "bedarf": 960,
+                    "bestandEnde": 1583,
+                    "fehlmenge": 0,
+                    "geliefert": 960,
+                    "kapazitaet": 1100
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.8727272727272727,
+                    "bedarf": 960,
+                    "bestandEnde": 1583,
+                    "fehlmenge": 0,
+                    "geliefert": 960,
+                    "kapazitaet": 1100
+                }
+            ]
+        },
+        {
+            "lieferantId": "L4",
+            "lieferantName": "Sitzsysteme West",
+            "name": "Sitzsatz",
+            "teilId": "T04",
+            "tier": 1,
+            "wochen": [
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.75,
+                    "bedarf": 900,
+                    "bestandEnde": 800,
+                    "fehlmenge": 0,
+                    "geliefert": 900,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.7583333333333333,
+                    "bedarf": 910,
+                    "bestandEnde": 800,
+                    "fehlmenge": 0,
+                    "geliefert": 910,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.7666666666666667,
+                    "bedarf": 920,
+                    "bestandEnde": 800,
+                    "fehlmenge": 0,
+                    "geliefert": 920,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.775,
+                    "bedarf": 930,
+                    "bestandEnde": 800,
+                    "fehlmenge": 0,
+                    "geliefert": 930,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.7833333333333333,
+                    "bedarf": 940,
+                    "bestandEnde": 800,
+                    "fehlmenge": 0,
+                    "geliefert": 940,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.39166666666666666,
+                    "bedarf": 470,
+                    "bestandEnde": 800,
+                    "fehlmenge": 0,
+                    "geliefert": 470,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.3958333333333333,
+                    "bedarf": 475,
+                    "bestandEnde": 800,
+                    "fehlmenge": 0,
+                    "geliefert": 475,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.7916666666666666,
+                    "bedarf": 950,
+                    "bestandEnde": 800,
+                    "fehlmenge": 0,
+                    "geliefert": 950,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 960,
+                    "bestandEnde": 1183,
+                    "fehlmenge": 0,
+                    "geliefert": 960,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 960,
+                    "bestandEnde": 1183,
+                    "fehlmenge": 0,
+                    "geliefert": 960,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 960,
+                    "bestandEnde": 1183,
+                    "fehlmenge": 0,
+                    "geliefert": 960,
+                    "kapazitaet": 1200
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 960,
+                    "bestandEnde": 1183,
+                    "fehlmenge": 0,
+                    "geliefert": 960,
+                    "kapazitaet": 1200
+                }
+            ]
+        },
+        {
+            "lieferantId": "L6",
+            "lieferantName": "Antriebe Mitte",
+            "name": "Elektromotor",
+            "teilId": "T05",
+            "tier": 1,
+            "wochen": [
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.7,
+                    "bedarf": 700,
+                    "bestandEnde": 500,
+                    "fehlmenge": 0,
+                    "geliefert": 700,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.72,
+                    "bedarf": 720,
+                    "bestandEnde": 500,
+                    "fehlmenge": 0,
+                    "geliefert": 720,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.74,
+                    "bedarf": 740,
+                    "bestandEnde": 500,
+                    "fehlmenge": 0,
+                    "geliefert": 740,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.76,
+                    "bedarf": 760,
+                    "bestandEnde": 500,
+                    "fehlmenge": 0,
+                    "geliefert": 760,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.78,
+                    "bedarf": 780,
+                    "bestandEnde": 500,
+                    "fehlmenge": 0,
+                    "geliefert": 780,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.39,
+                    "bedarf": 390,
+                    "bestandEnde": 500,
+                    "fehlmenge": 0,
+                    "geliefert": 390,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.4,
+                    "bedarf": 400,
+                    "bestandEnde": 500,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 800,
+                    "bestandEnde": 500,
+                    "fehlmenge": 0,
+                    "geliefert": 800,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.82,
+                    "bedarf": 820,
+                    "bestandEnde": 1061,
+                    "fehlmenge": 0,
+                    "geliefert": 820,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.82,
+                    "bedarf": 820,
+                    "bestandEnde": 1061,
+                    "fehlmenge": 0,
+                    "geliefert": 820,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.82,
+                    "bedarf": 820,
+                    "bestandEnde": 1061,
+                    "fehlmenge": 0,
+                    "geliefert": 820,
+                    "kapazitaet": 1000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.82,
+                    "bedarf": 820,
+                    "bestandEnde": 1061,
+                    "fehlmenge": 0,
+                    "geliefert": 820,
+                    "kapazitaet": 1000
+                }
+            ]
+        },
+        {
+            "lieferantId": "L6",
+            "lieferantName": "Antriebe Mitte",
+            "name": "Getriebe",
+            "teilId": "T06",
+            "tier": 1,
+            "wochen": [
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.4,
+                    "bedarf": 200,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 200,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.4,
+                    "bedarf": 200,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 200,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 400,
+                    "bestandEnde": 300,
+                    "fehlmenge": 0,
+                    "geliefert": 400,
+                    "kapazitaet": 500
+                }
+            ]
+        },
+        {
+            "lieferantId": "L5",
+            "lieferantName": "Halbleiter AG",
+            "name": "Mikrochip",
+            "teilId": "T07",
+            "tier": 2,
+            "wochen": [
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.8,
+                    "bedarf": 6400,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 6400,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.815,
+                    "bedarf": 6520,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 6520,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.83,
+                    "bedarf": 6640,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 6640,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.845,
+                    "bedarf": 6760,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 6760,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.86,
+                    "bedarf": 6880,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 6880,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.43,
+                    "bedarf": 3440,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 3440,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GRUEN",
+                    "ausLager": 0,
+                    "auslastung": 0.4375,
+                    "bedarf": 3500,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 3500,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.875,
+                    "bedarf": 7000,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 7000,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.89,
+                    "bedarf": 7120,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 7120,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.89,
+                    "bedarf": 7120,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 7120,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.89,
+                    "bedarf": 7120,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 7120,
+                    "kapazitaet": 8000
+                },
+                {
+                    "ampel": "GELB",
+                    "ausLager": 0,
+                    "auslastung": 0.89,
+                    "bedarf": 7120,
+                    "bestandEnde": 10000,
+                    "fehlmenge": 0,
+                    "geliefert": 7120,
+                    "kapazitaet": 8000
+                }
+            ]
+        }
+    ],
+    "varianten": [
+        {
+            "gebaut": [
+                400,
+                400,
+                400,
+                400,
+                400,
+                200,
+                200,
+                400,
+                400,
+                400,
+                400,
+                400
+            ],
+            "geplant": [
+                400,
+                400,
+                400,
+                400,
+                400,
+                200,
+                200,
+                400,
+                400,
+                400,
+                400,
+                400
+            ],
+            "name": "Kompakt Benzin",
+            "varianteId": "KOMPAKT_B"
+        },
+        {
+            "gebaut": [
+                300,
+                300,
+                300,
+                300,
+                300,
+                150,
+                150,
+                300,
+                95,
+                300,
+                300,
+                300
+            ],
+            "geplant": [
+                300,
+                300,
+                300,
+                300,
+                300,
+                150,
+                150,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "name": "Kompakt Elektro",
+            "varianteId": "KOMPAKT_E"
+        },
+        {
+            "gebaut": [
+                200,
+                210,
+                220,
+                230,
+                240,
+                120,
+                125,
+                250,
+                82,
+                260,
+                260,
+                260
+            ],
+            "geplant": [
+                200,
+                210,
+                220,
+                230,
+                240,
+                120,
+                125,
+                250,
+                260,
+                260,
+                260,
+                260
+            ],
+            "name": "SUV Elektro",
+            "varianteId": "SUV_E"
+        }
+    ],
+    "wochen": [
+        "KW 47",
+        "KW 48",
+        "KW 49",
+        "KW 50",
+        "KW 51",
+        "KW 52",
+        "KW 01",
+        "KW 02",
+        "KW 03",
+        "KW 04",
+        "KW 05",
+        "KW 06"
+    ]
+}

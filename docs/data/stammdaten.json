@@ -1,0 +1,193 @@
+{
+    "lieferanten": [
+        {
+            "ausfallwahrscheinlichkeit": 0.05,
+            "id": "L1",
+            "name": "Elektronikwerk Nord",
+            "tier": 1
+        },
+        {
+            "ausfallwahrscheinlichkeit": 0.08,
+            "id": "L2",
+            "name": "Zellwerk Ost",
+            "tier": 1
+        },
+        {
+            "ausfallwahrscheinlichkeit": 0.04,
+            "id": "L3",
+            "name": "Kabeltechnik Sued",
+            "tier": 1
+        },
+        {
+            "ausfallwahrscheinlichkeit": 0.03,
+            "id": "L4",
+            "name": "Sitzsysteme West",
+            "tier": 1
+        },
+        {
+            "ausfallwahrscheinlichkeit": 0.15,
+            "id": "L5",
+            "name": "Halbleiter AG",
+            "tier": 2
+        },
+        {
+            "ausfallwahrscheinlichkeit": 0.06,
+            "id": "L6",
+            "name": "Antriebe Mitte",
+            "tier": 1
+        }
+    ],
+    "name": "Beispielwerk (fiktiv)",
+    "programm": {
+        "KOMPAKT_B": [
+            400,
+            400,
+            400,
+            400,
+            400,
+            200,
+            200,
+            400,
+            400,
+            400,
+            400,
+            400
+        ],
+        "KOMPAKT_E": [
+            300,
+            300,
+            300,
+            300,
+            300,
+            150,
+            150,
+            300,
+            300,
+            300,
+            300,
+            300
+        ],
+        "SUV_E": [
+            200,
+            210,
+            220,
+            230,
+            240,
+            120,
+            125,
+            250,
+            260,
+            260,
+            260,
+            260
+        ]
+    },
+    "stueckliste": {
+        "KOMPAKT_B": {
+            "T01": 1,
+            "T03": 1,
+            "T04": 1,
+            "T06": 1
+        },
+        "KOMPAKT_E": {
+            "T01": 2,
+            "T02": 6,
+            "T03": 1,
+            "T04": 1,
+            "T05": 1
+        },
+        "SUV_E": {
+            "T01": 3,
+            "T02": 10,
+            "T03": 1,
+            "T04": 1,
+            "T05": 2
+        }
+    },
+    "teile": [
+        {
+            "id": "T01",
+            "kapazitaetProWoche": 1900,
+            "lieferantId": "L1",
+            "name": "Steuergeraet",
+            "sicherheitsbestand": 1200,
+            "vorprodukt": {
+                "menge": 4,
+                "teilId": "T07"
+            }
+        },
+        {
+            "id": "T02",
+            "kapazitaetProWoche": 4500,
+            "lieferantId": "L2",
+            "name": "Batteriemodul",
+            "sicherheitsbestand": 3000
+        },
+        {
+            "id": "T03",
+            "kapazitaetProWoche": 1100,
+            "lieferantId": "L3",
+            "name": "Kabelbaum",
+            "sicherheitsbestand": 1200
+        },
+        {
+            "id": "T04",
+            "kapazitaetProWoche": 1200,
+            "lieferantId": "L4",
+            "name": "Sitzsatz",
+            "sicherheitsbestand": 800
+        },
+        {
+            "id": "T05",
+            "kapazitaetProWoche": 1000,
+            "lieferantId": "L6",
+            "name": "Elektromotor",
+            "sicherheitsbestand": 500
+        },
+        {
+            "id": "T06",
+            "kapazitaetProWoche": 500,
+            "lieferantId": "L6",
+            "name": "Getriebe",
+            "sicherheitsbestand": 300
+        },
+        {
+            "id": "T07",
+            "kapazitaetProWoche": 8000,
+            "lieferantId": "L5",
+            "name": "Mikrochip",
+            "sicherheitsbestand": 10000
+        }
+    ],
+    "varianten": [
+        {
+            "deckungsbeitrag": 2800,
+            "id": "KOMPAKT_B",
+            "name": "Kompakt Benzin"
+        },
+        {
+            "deckungsbeitrag": 4200,
+            "id": "KOMPAKT_E",
+            "name": "Kompakt Elektro"
+        },
+        {
+            "deckungsbeitrag": 6500,
+            "id": "SUV_E",
+            "name": "SUV Elektro"
+        }
+    ],
+    "wochen": [
+        "KW 47",
+        "KW 48",
+        "KW 49",
+        "KW 50",
+        "KW 51",
+        "KW 52",
+        "KW 01",
+        "KW 02",
+        "KW 03",
+        "KW 04",
+        "KW 05",
+        "KW 06"
+    ]
+}

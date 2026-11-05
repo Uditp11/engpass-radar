@@ -1,0 +1,41 @@
+[
+    {
+        "dauer": 0,
+        "id": "basis",
+        "restkapazitaetProzent": 100,
+        "startWoche": 0,
+        "titel": "Basisplan ohne Stoerung"
+    },
+    {
+        "dauer": 3,
+        "id": "halbleiter",
+        "lieferantId": "L5",
+        "restkapazitaetProzent": 0,
+        "startWoche": 2,
+        "titel": "Halbleiter AG (Tier 2) faellt ab KW 49 drei Wochen komplett aus"
+    },
+    {
+        "dauer": 2,
+        "id": "zellwerk",
+        "lieferantId": "L2",
+        "restkapazitaetProzent": 30,
+        "startWoche": 7,
+        "titel": "Zellwerk Ost liefert ab KW 02 zwei Wochen nur 30 Prozent"
+    },
+    {
+        "dauer": 1,
+        "id": "kabel",
+        "lieferantId": "L3",
+        "restkapazitaetProzent": 0,
+        "startWoche": 3,
+        "titel": "Kabeltechnik Sued faellt in KW 50 eine Woche aus"
+    },
+    {
+        "dauer": 4,
+        "id": "antriebe",
+        "lieferantId": "L6",
+        "restkapazitaetProzent": 50,
+        "startWoche": 8,
+        "titel": "Antriebe Mitte liefert ab KW 03 vier Wochen nur 50 Prozent"
+    }
+]

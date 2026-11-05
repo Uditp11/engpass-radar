@@ -1,0 +1,81 @@
+[
+    {
+        "ausfallwahrscheinlichkeit": 0.06,
+        "erwarteterSchaden": 574716,
+        "kritischeStartwoche": "KW 03",
+        "lieferantId": "L6",
+        "maxSchaden": 9578600,
+        "maxSchadenMitMassnahme": 9460000,
+        "name": "Antriebe Mitte",
+        "teile": [
+            "Elektromotor",
+            "Getriebe"
+        ],
+        "tier": 1
+    },
+    {
+        "ausfallwahrscheinlichkeit": 0.15,
+        "erwarteterSchaden": 563490,
+        "kritischeStartwoche": "KW 03",
+        "lieferantId": "L5",
+        "maxSchaden": 3756600,
+        "maxSchadenMitMassnahme": 3678000,
+        "name": "Halbleiter AG",
+        "teile": [
+            "Mikrochip"
+        ],
+        "tier": 2
+    },
+    {
+        "ausfallwahrscheinlichkeit": 0.08,
+        "erwarteterSchaden": 547416,
+        "kritischeStartwoche": "KW 03",
+        "lieferantId": "L2",
+        "maxSchaden": 6842700,
+        "maxSchadenMitMassnahme": 6810000,
+        "name": "Zellwerk Ost",
+        "teile": [
+            "Batteriemodul"
+        ],
+        "tier": 1
+    },
+    {
+        "ausfallwahrscheinlichkeit": 0.05,
+        "erwarteterSchaden": 473545,
+        "kritischeStartwoche": "KW 03",
+        "lieferantId": "L1",
+        "maxSchaden": 9470900,
+        "maxSchadenMitMassnahme": 9358000,
+        "name": "Elektronikwerk Nord",
+        "teile": [
+            "Steuergeraet"
+        ],
+        "tier": 1
+    },
+    {
+        "ausfallwahrscheinlichkeit": 0.04,
+        "erwarteterSchaden": 284900,
+        "kritischeStartwoche": "KW 03",
+        "lieferantId": "L3",
+        "maxSchaden": 7122500,
+        "maxSchadenMitMassnahme": 6580000,
+        "name": "Kabeltechnik Sued",
+        "teile": [
+            "Kabelbaum"
+        ],
+        "tier": 1
+    },
+    {
+        "ausfallwahrscheinlichkeit": 0.03,
+        "erwarteterSchaden": 264708,
+        "kritischeStartwoche": "KW 03",
+        "lieferantId": "L4",
+        "maxSchaden": 8823600,
+        "maxSchadenMitMassnahme": 8588000,
+        "name": "Sitzsysteme West",
+        "teile": [
+            "Sitzsatz"
+        ],
+        "tier": 1
+    }
+]
