@@ -172,10 +172,14 @@ async function start() {
         auswahl.value = ausHash;
     el("risiko").innerHTML = risiko(ranking);
     const regel = () => (document.querySelector('input[name="regel"]:checked')?.value ?? "PROPORTIONAL");
+    let letzterAufruf = 0;
     async function zeigen() {
+        const aufruf = ++letzterAufruf;
         const id = auswahl.value;
         history.replaceState(null, "", `#${id}`);
         const [prop, rdb] = await Promise.all([analyse(id, "PROPORTIONAL"), analyse(id, "RELATIVER_DECKUNGSBEITRAG")]);
+        if (aufruf !== letzterAufruf)
+            return; // eine neuere Auswahl ist schon unterwegs
         const e = regel() === "PROPORTIONAL" ? prop : rdb;
         el("kpis").innerHTML = kpis(e.kennzahlen);
         el("karte").innerHTML = karte(e, werk);
